@@ -1,0 +1,31 @@
+.efecto{
+	width: 30ch;
+	color: rgba($color: #000000, $alpha: .8);
+	animation: tipo_a 1.8s steps(9),
+				tipo_b .5s step-end infinite alternate;
+
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid rgba($color: #000000, $alpha: .5);
+	font-weight: 900;
+	text-transform: uppercase;
+	font-size: 100px;
+	margin: o auto;
+}
+
+ @keyframes tipo_a{
+ 	from {width: 0;}
+ }
+
+ @keyframes tipo_b{
+ 	50% {border-color: transparent;}
+ }
+
+
+ .form-inline{
+ 	background: rgba(0, 0, 0, 0.2);
+ 	width: 30%;
+ 	border-radius: 20px;
+ }
+
+
